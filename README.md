@@ -1,100 +1,124 @@
 # Network Intrusion Detection using IBM watsonx.ai AutoAI
 
-## Introduction
+## Project Overview
 
-As cyber threats continue to evolve, organizations require intelligent systems capable of identifying malicious network activities before they compromise critical resources. Network Intrusion Detection Systems (NIDS) play a vital role in monitoring network traffic and detecting suspicious behavior in real time.
+Network security has become one of the most critical challenges in today's digital world. As organizations increasingly rely on interconnected systems, detecting malicious network activities before they impact critical infrastructure is essential. A Network Intrusion Detection System (NIDS) continuously monitors network traffic to identify suspicious behavior and support proactive cybersecurity.
 
-This project demonstrates the development of a Machine Learning-based Network Intrusion Detection System using IBM watsonx.ai AutoAI on IBM Cloud. By leveraging Automated Machine Learning (AutoAI), the solution simplifies the complete model development process while delivering accurate classification of network traffic.
+This project presents a Machine Learning-based Network Intrusion Detection System developed using IBM watsonx.ai AutoAI and deployed on IBM Cloud using IBM Watson Machine Learning. By leveraging Automated Machine Learning (AutoAI), the solution streamlines the complete model development lifecycle, enabling efficient analysis of network traffic and accurate identification of suspicious network activity with minimal manual intervention.
 
 ---
 
-## Problem Statement
+# Problem Statement
 
 **Problem Statement No. 40 – Network Intrusion Detection**
 
-Design and implement a Machine Learning solution capable of analyzing network traffic and distinguishing legitimate communication from malicious activities. The objective is to provide an automated intrusion detection mechanism that strengthens network security through early threat identification.
+Develop a robust Network Intrusion Detection System (NIDS) capable of analyzing network traffic to distinguish malicious activities from legitimate communication. The objective is to strengthen communication network security by providing intelligent and automated intrusion detection.
 
 ---
 
-## Solution Overview
+# Objectives
 
-The solution utilizes IBM watsonx.ai AutoAI to automate the Machine Learning workflow. After importing the network intrusion dataset, AutoAI performs data preprocessing, feature engineering, algorithm selection, model training, hyperparameter optimization, and comparative evaluation of multiple pipelines.
-
-The highest-performing pipeline is selected automatically, deployed on IBM Cloud, and tested using unseen network traffic records. The deployed model predicts whether an incoming connection represents **Normal** traffic or an **Anomaly**, enabling efficient intrusion detection with minimal manual effort.
+- Develop a Machine Learning-based Network Intrusion Detection System.
+- Analyze network traffic using multiple network communication features.
+- Automatically generate and evaluate predictive models using IBM watsonx.ai AutoAI.
+- Deploy the best-performing model on IBM Cloud.
+- Detect suspicious network activity through automated prediction.
+- Demonstrate an end-to-end AI deployment workflow on IBM Cloud.
 
 ---
 
-## Technology Stack
+# Solution Overview
 
-- IBM Cloud 
+The solution leverages IBM watsonx.ai AutoAI to automate every major stage of the Machine Learning workflow, including data preprocessing, feature engineering, model selection, hyperparameter optimization, pipeline generation, and performance evaluation.
+
+Multiple candidate pipelines are generated and compared automatically. The highest-performing pipeline is selected and deployed using IBM Watson Machine Learning on IBM Cloud.
+
+The deployed model analyzes network traffic records and classifies each connection as either **Normal** or **Anomaly**, providing an intelligent and automated approach for identifying potentially malicious network behavior.
+
+---
+
+# Technology Stack
+
+- IBM Cloud
 - IBM watsonx.ai AutoAI
-- Machine Learning
+- IBM Watson Machine Learning
 - Python
 - GitHub
 
 ---
 
-## Dataset
+# Dataset
 
-The project uses the **Network Intrusion Detection** dataset obtained from Kaggle. The dataset contains network connection records with multiple traffic features describing communication behavior. These attributes enable the model to learn network patterns and classify incoming traffic into appropriate categories.
+The project utilizes the **Network Intrusion Detection** dataset obtained from Kaggle. The dataset contains multiple network traffic attributes that describe communication behavior between systems. These features enable the model to learn network patterns and classify network traffic as **Normal** or **Anomaly**.
 
-**Dataset Source:**  
+**Dataset Source**
+
 https://www.kaggle.com/datasets/sampadab17/network-intrusion-detection
 
 ---
 
-## Development Process
+# Implementation Workflow
 
-- Imported the dataset into IBM watsonx.ai AutoAI.
-- Configured the prediction target.
-- Generated multiple Machine Learning pipelines automatically.
-- Evaluated pipeline performance using AutoAI.
-- Selected the best-performing model.
-- Deployed the trained model on IBM Cloud.
-- Validated predictions using sample network traffic records.
-
----
-
-## Key Highlights
-
-- Automated data preprocessing
-- Automatic feature engineering
-- Multiple model generation and evaluation
-- Hyperparameter optimization
-- Cloud-based model deployment
-- Online prediction testing
-- Binary classification of network traffic
+1. Imported the dataset into IBM watsonx.ai AutoAI.
+2. Configured the target column for prediction.
+3. Performed automated data preprocessing.
+4. Applied automatic feature engineering.
+5. Generated multiple Machine Learning pipelines.
+6. Evaluated and compared pipeline performance.
+7. Selected the highest-performing model.
+8. Deployed the trained model using IBM Watson Machine Learning on IBM Cloud.
+9. Tested the deployed model using sample network traffic records.
+10. Verified the deployed model by testing it using sample network traffic records.
 
 ---
 
-## Repository Contents
+# Key Features
+
+- Automated Machine Learning Workflow
+- Intelligent Network Traffic Classification
+- Automatic Data Preprocessing
+- Feature Engineering
+- Hyperparameter Optimization
+- Multiple Pipeline Generation
+- Model Performance Evaluation
+- Cloud-Based Model Deployment
+
+---
+
+# Repository Structure
 
 | File | Description |
 |------|-------------|
-| Data.csv | Training dataset used for model development |
-| ProblemStatement.pdf | Official project problem statement |
+| README.md | Complete project documentation |
+| Data.csv | Dataset used for model training |
+| ProblemStatement.pdf | Official IBM SkillsBuild project problem statement |
 | ProjectPresentation.pptx | Final project presentation |
-| PipelineNotebook.ipynb | AutoAI generated pipeline notebook |
-| README.md | Project documentation |
+| PipelineNotebook.ipynb | AutoAI-generated pipeline notebook |
 
 ---
 
-## Outcome
+# Results
 
-The developed model successfully performs binary classification of network traffic by identifying **Normal** and **Anomaly** connections. The complete workflow—from dataset preparation to cloud deployment and prediction testing—was implemented using IBM watsonx.ai AutoAI, demonstrating an efficient approach for developing intelligent cybersecurity solutions.
+The developed Network Intrusion Detection System successfully analyzes network traffic and classifies each connection as **Normal** or **Anomaly**. The trained model was deployed on IBM Cloud using IBM Watson Machine Learning and verified by testing it using sample network traffic records.
 
----
-
-## Future Enhancements
-
-- Support multi-class attack categorization (DoS, Probe, R2L, U2R)
-- Integration with live network monitoring systems
-- Continuous model retraining using updated datasets
-- Real-time alert generation for detected intrusions
-- Enterprise-scale deployment for organizational networks
+This project demonstrates a complete end-to-end AI workflow, from dataset preparation and automated model generation to cloud deployment and prediction testing using IBM watsonx.ai AutoAI.
 
 ---
 
-## Author
+# Future Enhancements
 
-Anuj Shinde
+- Extend the model to support multi-class attack classification such as DoS, Probe, R2L, and U2R.
+- Integrate the solution with real-time network monitoring systems.
+- Improve model performance using larger and continuously updated datasets.
+- Enable automated alert generation for suspicious network activities.
+- Deploy the solution for enterprise-scale cybersecurity applications.
+
+---
+
+# Author
+
+**Anuj Shinde**
+
+Electronics and Telecommunication Engineering
+
+IBM SkillsBuild AI & Cloud Internship Project
