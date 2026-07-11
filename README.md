@@ -71,11 +71,11 @@ https://www.kaggle.com/datasets/sampadab17/networkintrusion-detection
 
 | File | Description |
 |------|-------------|
-| Data.csv - Training dataset used for model development |
-| ProblemStatement.pdf - Official project problem statement |
-| ProjectPresentation.pptx - Final project presentation |
-| PipelineNotebook.ipynb - AutoAI generated pipeline notebook |
-| README.md - Project documentation |
+| Data.csv | Training dataset used for model development |
+| ProblemStatement.pdf | Official project problem statement |
+| ProjectPresentation.pptx | Final project presentation |
+| PipelineNotebook.ipynb | AutoAI generated pipeline notebook |
+| README.md | Project documentation |
 
 ---
 
