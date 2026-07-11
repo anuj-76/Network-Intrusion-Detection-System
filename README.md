@@ -68,7 +68,7 @@ https://www.kaggle.com/datasets/sampadab17/network-intrusion-detection
 7. Selected the highest-performing model.
 8. Deployed the trained model using IBM Watson Machine Learning on IBM Cloud.
 9. Tested the deployed model using sample network traffic records.
-10. Verified the deployed model by testing it using sample network traffic records.
+
 
 ---
 
@@ -119,6 +119,4 @@ This project demonstrates a complete end-to-end AI workflow, from dataset prepar
 
 **Anuj Shinde**
 
-Electronics and Telecommunication Engineering
 
-IBM SkillsBuild AI & Cloud Internship Project
