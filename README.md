@@ -1,4 +1,4 @@
-# Network Intrusion Detection using IBM watsonx.ai AutoAI
+# Network Intrusion Detection System
 
 ## Project Overview
 
