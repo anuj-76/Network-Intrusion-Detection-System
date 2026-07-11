@@ -39,7 +39,7 @@ The highest-performing pipeline is selected automatically, deployed on IBM Cloud
 The project uses the **Network Intrusion Detection** dataset obtained from Kaggle. The dataset contains network connection records with multiple traffic features describing communication behavior. These attributes enable the model to learn network patterns and classify incoming traffic into appropriate categories.
 
 **Dataset Source:**  
-https://www.kaggle.com/datasets/sampadab17/networkintrusion-detection 
+https://www.kaggle.com/datasets/sampadab17/network-intrusion-detection
 
 ---
 
